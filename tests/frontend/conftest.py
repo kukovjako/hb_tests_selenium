@@ -1,6 +1,6 @@
 import pytest
 
-from base.po.siding import HomeBuddySidingMainPage
+from base.po.page_object import HomeBuddySidingMainPage
 
 
 @pytest.fixture

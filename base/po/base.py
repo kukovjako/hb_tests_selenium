@@ -6,7 +6,7 @@ from base.common import setup_chrome
 
 
 class HomeBuddyBasePage(BasePage):
-    TIMEOUT = 30
+    TIMEOUT = 10
     SLEEP_SECONDS = 0.5
 
     def __init__(self, url):
@@ -40,4 +40,3 @@ class HomeBuddyBasePage(BasePage):
 
     def get_screenshot(self):
         return self.__driver.get_screenshot_as_png()
-
