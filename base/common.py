@@ -8,6 +8,7 @@ from tests.frontend.constants import PHONE_NUMBER
 
 def setup_chrome():
     chrome_options = Options()
+    chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
     if CHROME_OPTIONS:
         for opt in CHROME_OPTIONS:
             chrome_options.add_argument(opt)
