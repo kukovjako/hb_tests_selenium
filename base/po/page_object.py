@@ -185,7 +185,6 @@ class HomeBuddySidingMainPage(HomeBuddyBasePage):
              timeout_seconds=self.TIMEOUT)
         self.submit_click()
 
-
     @allure.step("Submit button click")
     @HomeBuddyBasePage.screen_after_step
     def submit_click(self):

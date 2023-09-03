@@ -120,7 +120,7 @@ class QuestionsFormBlock(WebElement):
 
 
 """
-These blocks have no use for this particular assignment. 
+These blocks have no use for this particular assignment.
 We could use them later for more detailed tests.
 Also PageObject just looks better this way.
 """
