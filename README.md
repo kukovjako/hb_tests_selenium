@@ -2,6 +2,7 @@
 ### Using Pytest, Selenium, Allure
 
 ### First, clone project
+
 Then:
 ```
 > python3 -m venv env
@@ -18,7 +19,7 @@ Tests are running headless.
 ### To see the Allure test report:
 Install Allure, using Homebrew:
 ```
->brew install allure 
+> brew install allure 
 ```
 Run report using:
 ```
