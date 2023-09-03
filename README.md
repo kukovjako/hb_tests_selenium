@@ -16,7 +16,8 @@ To run tests:
 ```
 Tests are running headless.
 
-### To see the Allure test report:
+### To see the Allure test report :
+#### on MACOSX
 Install Allure, using Homebrew:
 ```
 > brew install allure 
@@ -25,9 +26,9 @@ Run report using:
 ```
 > allure serve report_dir
 ```
-### Or, install Allure on WINDOWS using Scoop:
+#### Or on WINDOWS using Scoop:
 First, install the Scoop command-line installer
-In a PoweShell terminal:
+In a PowerShell terminal:
 ```
 > Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time
 > irm get.scoop.sh | iex
