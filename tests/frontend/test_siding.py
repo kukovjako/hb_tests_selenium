@@ -170,5 +170,5 @@ class TestSidingPositiveScenario:
         main_page.confirm_phone()
         # check for success message appeared
         wait(lambda: main_page.questions_form.is_element_present("success_message"),
-             waiting_for="Phone confirmation request is present",
+             waiting_for="'Your contractor will call soon' message is present",
              timeout_seconds=main_page.TIMEOUT)
