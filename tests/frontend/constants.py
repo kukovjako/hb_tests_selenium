@@ -1,0 +1,10 @@
+
+SIDING_ZIP_WRONG = [1, "xxxxx", 000000, "./"]
+SIDING_ZIP_NO_CONTRACTORS = "90909"
+SIDING_ZIP_EMPTY = ""
+SIDING_ZIP_POSITIVE = "09090"
+
+SIDING_AREA_FT = "100"
+FULL_NAME = "test test"
+EMAIL = "test@test.com"
+PHONE_NUMBER = "+1(555){}-{}"
